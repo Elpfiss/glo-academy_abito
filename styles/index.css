@@ -31,6 +31,25 @@ body {
     margin: 0 auto;
 }
 
+.btn {
+    line-height: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 15px 10px 15px; /*by clock array by time. "padding: 10px 15 px;" is the same*/
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-outline {
+    background-color: transparent;
+}
+
+.btn-primary {
+    background-color: #256eeb;
+    color: #ffffff;
+}
+
 .header {
     padding-top: 30px;
     padding-bottom: 24px;
@@ -56,6 +75,21 @@ body {
     margin-left: 6px;
 }
 
+.header-burger {
+    width: 30px;
+    height: 19px;
+    display: none;
+}
+
+.search-box {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #256eeb;
+    padding: 3px;
+    display: flex;
+}
+
+
 @media (max-width: 1200px) {
     .container {
         max-width: 930px;
@@ -71,5 +105,13 @@ body {
 @media (max-width: 786px) {
     .container {
         max-width: 100%;
+    }
+
+    .header-controls {
+        display: none;
+    }
+
+    .header-burger {
+        display: block;
     }
 }
