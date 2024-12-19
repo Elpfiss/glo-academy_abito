@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abito</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src = "index.js" defer></script>
+</head>
+<body>
+    <!--блоки - div, строчные элементы - span-->
+    <header class="header">
+        <div class="container">
+            <div class="header-box">
+                <a class="header-logo" href="/">
+                    <img src="./images/logo.svg" alt="logo">
+                    <span>Abito</span>
+                </a>
+                <div class="header-controls">
+                    <button class = "btn btn-outline">Вход и регистрация</button>
+                    <button class = "btn btn-primary">Подать объявление</button>
+                </div>
+
+                <div class="header-burger">
+                    <img src="./images/burger.svg" alt="burger">
+                </div>
+
+            </div>
+        </div> 
+
+    </header>
+    <!--what makes this page unice-->
+    <main id = 'content'>
+        <section class="search">
+            <div class="container">
+                <div class="search-box">
+                    <input type="text">
+                    <button class="btn btn-primary search-btn"> 
+                        <img class="search-btn_icon" src="./images/lupe.svg" alt="Sign of search">
+                        <span class="search-btn_text">Найти</span>
+                    </button>
+
+                </div>
+            </div>
+        </section>
+        <section class="content">
+            <div class="container">
+                <div class="content-box">
+                    <div class="content-product"> 
+                        <div class="content-product--card">
+                            <h2 class = "content-product--card_title">Электросамокат kugoo Gx</h2>
+                            <img class = "content-product--card_img" src="./images/Product1big.jpeg" alt="Product1big">
+                            <p class = "content-product--card_text">
+                                Продаю не спеша самокат в хорошем состоянии. 
+                                <br>Торг возможен. 
+                                <br>За период эксплуатации не выявлено ни одной проблемы. 
+                                <br>Из минусов — нужно прокачать задний тормоз. 
+                                <br>Установлен отсекатель сзади.
+                                <br>Покрышки CST внедорожные.
+                                <br>Все на подшипниках, болты протянуты.
+                                <br>Пробег 881км , это немного для такого зверя.
+                            </p>
+                        </div>
+                        <div class="content-product--price">
+                            <h2 class = "content-product--price_title">75 000 р</h2>
+                            <button class = "btn-large">Показать телефон</button>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="content-side">
+                        <h3 class="content-side_title">Сервисы и услуги</h3>
+
+                        <div class="content-side_box">
+                            <div class="content-side_list">
+                                <a href="#" class="content-side_list-item">
+                                    <img class="content-side_list-item--img" src="./images/delivery.svg" alt="delivery car">
+                                    <h5 class="content-side_list-item--title">Доставка</h5>
+                                    <p class="content-main_list-item--text">
+                                        Проверка при получении и возможность бесплатно вернуть товар
+                                    </p>
+                                </a>
+        
+                                <a href="#" class="content-side_list-item">
+                                    <img class="content-side_list-item--img" src="./images/002-sedan 1.svg" alt="dream car">
+                                    <h5 class="content-side_list-item--title">Автотека</h5>
+                                    <p class="content-main_list-item--text">
+                                        Отчёт с историей авто: пробег, владельцы, сведения о залоге, ДТП и ремонтах
+                                    </p>
+                                </a>
+        
+                                <a href="#" class="content-side_list-item">
+                                    <img class="content-side_list-item--img" src="./images/house_min.svg" alt="home_and_heart">
+                                    <h5 class="content-side_list-item--title">Онлайн-бронирование жилья</h5>
+                                    <p class="content-main_list-item--text">
+                                        Посуточная аренда квартир и домов: большой выбор вариантов для поездок по России
+                                    </p>
+                                </a>
+                            </div>
+                            
+                            <div class="content-side_footer">
+                                <p class="content-side_footer--item">
+                                    © ООО «Абито», 2011–2021
+                                </p>
+                                <a href="#" class="content-side_footer--item">
+                                    Политика конфиденциальности
+                                </a>
+                                <a href="#" class="content-side_footer--item">
+                                    Обработка данных
+                                </a>
+                            </div>
+                        </div>
+                      
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
