@@ -281,6 +281,10 @@ body {
     line-height: 16px;
 }
 
+.search {
+    display: flex;
+}
+
 .content-product {
     display: flex;
     flex-grow: 1;
